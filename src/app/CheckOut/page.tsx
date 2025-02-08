@@ -152,7 +152,8 @@ export default function CheckOut() {
                 body: JSON.stringify(orderDetails), // Send the full order details
             });
     
-            // const _data = await response.json();
+            const data = await response.json();
+            console.log(data);
             toast.success("Order successfully saved in Sanity!");
         } catch (error) {
             console.error("Sanity migration error:", error);
