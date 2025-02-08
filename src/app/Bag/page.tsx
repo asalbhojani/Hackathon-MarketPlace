@@ -39,7 +39,7 @@ export default function Bag() {
           <div className="space-y-8">
             {cart.map((item) => (
               <div key={item.id} className="flex gap-4">
-                <img
+                <Image
                   src={item.imageUrl}
                   alt={item.name}
                   className="w-24 h-24 object-cover rounded-md border"
