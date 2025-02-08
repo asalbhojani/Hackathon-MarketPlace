@@ -1,0 +1,14 @@
+Test Case ID,Feature,Test Scenario,Test Steps,Expected Result,Actual Result,Status
+TC001,User Registration,Verify new user can register,Enter valid details and submit,User successfully registered,User successfully registered,Pass
+TC002,User Login,Verify user can log in with valid credentials,Enter correct email and password,User logs in successfully,User logs in successfully,Pass
+TC003,User Login,Verify login fails with incorrect credentials,Enter incorrect email/password,Error message displayed,Error message displayed,Pass
+TC004,Product Filtering,Verify filtering by category,Select category and apply filter,Only selected category products displayed,Only selected category products displayed,Pass
+TC005,Shopping Cart,Verify adding items to cart,Click on 'Add to Cart',Item added to cart,Item added to cart,Pass
+TC006,Shopping Cart,Verify removing items from cart,Click on 'Remove' button,Item removed from cart,Item removed from cart,Pass
+TC007,Checkout,Verify checkout process,Enter shipping details and complete payment,Order successfully placed,Order successfully placed,Pass
+TC008,Order Management,Verify order history displays correct details,Go to order history,Correct order details displayed,Correct order details displayed,Pass
+TC009,Payment Processing,Verify successful payment,Enter valid payment details,Payment processed successfully,Payment processed successfully,Pass
+TC010,Payment Processing,Verify failed payment,Enter invalid payment details,Payment failed with error message,Payment failed with error message,Pass
+TC011,Security,Verify session timeout,Leave session idle for a set time,User automatically logged out,User automatically logged out,Pass
+TC012,Performance,Verify page load time,Load homepage,Page loads within 3 seconds,Page loads within 3 seconds,Pass
+TC013,Responsiveness,Verify mobile view compatibility,Open website on mobile,Website adjusts properly,Website adjusts properly,Pass
